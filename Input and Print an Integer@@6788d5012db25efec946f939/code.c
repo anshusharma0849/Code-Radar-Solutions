@@ -3,13 +3,9 @@
 int main() {
   int number;
 
-  printf("Enter an integer: ");
+  scanf("%d", &number); // Read the integer
 
-
-  scanf("%d", &number);
-
-
-  printf("You entered: %d\n", number);
+  printf("%d\n", number); // Print the integer
 
   return 0;
 }
