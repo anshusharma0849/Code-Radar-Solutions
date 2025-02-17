@@ -1,8 +1,15 @@
-#include<stdio.h>
-int main (){
-    int x;
-    printf("A single integer");
-    scanf("%d",&x);
-    printf("%d",x)
-    return 0;
+#include <stdio.h>
+
+int main() {
+  int number;
+
+  printf("Enter an integer: ");
+
+
+  scanf("%d", &number);
+
+
+  printf("You entered: %d\n", number);
+
+  return 0;
 }
