@@ -3,9 +3,9 @@
 int main() {
   char x;
 
-  scanf("%c", &x); // Reads a single character and stores it in 'ch'
+  scanf("%c", &x); 
 
-  printf("ASCII Value: %d\n", x); // Prints the ASCII value of the character
+  printf("ASCII Value: %c\n", x); 
 
   return 0;
 }
