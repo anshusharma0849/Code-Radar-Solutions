@@ -2,10 +2,10 @@
 
 int main() {
   int x;
-  printf("Enter a integer");
-  scanf("%d", &x);
 
-  printf("%d\n", x); 
+  scanf("%d", & x);
+
+  printf("You entered: %d ", x); 
 
   return 0;
 }
