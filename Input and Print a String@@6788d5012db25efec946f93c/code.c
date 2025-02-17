@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    char word[100]; // Assuming a maximum word length of 99 characters + null terminator
+    char word[10]; 
 
-    scanf("%99s", word); // Read the word, limiting input to prevent buffer overflows
+    scanf("%99s", word);
 
-    printf("You entered: %s\n", word); // Print the word
+    printf("You entered: %s\n", word); 
 
     return 0;
 }
