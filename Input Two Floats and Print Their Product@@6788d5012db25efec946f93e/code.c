@@ -6,7 +6,7 @@ int main(){
 
     scanf("%d",x,y);
 
-    printf("product : %d\n",x,y)
+    printf("product : %d\n",x,y);
 
     return 0;
 }
