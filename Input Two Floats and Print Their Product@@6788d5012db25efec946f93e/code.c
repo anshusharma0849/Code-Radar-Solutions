@@ -2,9 +2,10 @@
 
 int main(){
 
-    float x , y;
+    float x , y ,produuct;
 
-    scanf("%d",x,y);
+    scanf("%f",&x,&y);
+    product =x*y
 
     printf("product : %d\n",x,y);
 
