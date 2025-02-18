@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 int main() {
-  int num;
+  int x;
 
-  // Read the integer
-  scanf("%d", &num);
+  scanf("%d", &x);
 
-  // Print hexadecimal and octal representations
-  printf("Hexadecimal: %X\n", num); // %X for uppercase hexadecimal
-  printf("Octal: %o\n", num);       // %o for octal
+  printf("Hexadecimal: %X\n", x); 
+  printf("Octal: %o\n", x);      
 
   return 0;
 }
