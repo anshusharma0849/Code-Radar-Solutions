@@ -1,13 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main() {
+  float x, y, product;
 
-    float x , y ,produuct;
+  scanf("%f %f", &x, &y);
 
-    scanf("%f",&x,&y);
-    product =x*y ;
+  product = x * y;
 
-    printf("product : %f\n"product);
+  printf("Product: %.2f\n", product);
 
-    return 0;
+  return 0;
 }
