@@ -6,7 +6,7 @@ int main() {
 
     // Read the two strings separated by space. 
     // %99s limits the input to 99 characters to prevent buffer overflows
-    scanf("%99s %99s", str1, str2);  
+    scanf("%s %s", str1, str2);  
 
     // Print the strings
     printf("You entered: %s and %s\n", str1, str2);
